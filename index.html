@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Product Showcase</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.min.js"></script>
+</head>
+<body>
+  <h1>MacKenzie-Childs Product Showcase</h1>
+  <div id="product-container"></div>
+
+  <script id="product-template" type="text/x-handlebars-template">
+    {{#each this}}
+      <div class="card">
+        <img src="{{image}}" alt="{{name}}">
+        <h3>{{name}}</h3>
+        <p>{{category}}</p>
+        <span>{{price}}</span>
+      </div>
+    {{/each}}
+  </script>
+
+  <script src="script.js"></script>
+</body>
+</html>
