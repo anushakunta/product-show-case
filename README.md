@@ -1,7 +1,7 @@
 # 🛍️ Product Showcase
 
 A simple web application that dynamically loads product data from a JSON file and renders it using **Handlebars.js** templates.  
-This project demonstrates key front-end development skills such as **HTML, CSS, JavaScript, JSON handling, and templating**, similar to what’s used in B2C e-commerce platforms like MacKenzie-Childs.
+This project demonstrates key front-end development skills such as **HTML, CSS, JavaScript, JSON handling, and templating**, similar to what’s used in B2C e-commerce platforms.
 
 ---
 
