@@ -24,3 +24,38 @@ This project demonstrates key front-end development skills such as **HTML, CSS, 
 ---
 
 ## 📂 Project Structure
+product-showcase/
+│
+├── index.html # Main web page
+├── style.css # Styling for the UI
+├── script.js # JavaScript for data loading and rendering
+└── products.json # Product data file
+
+## ⚙️ How to Run Locally
+1. **Download or clone** this repository  
+2. Open the project folder  
+3. Simply open `index.html` in your browser  
+   - No server setup is needed (uses static JSON file)
+4. The page will automatically load and display product data
+
+---
+
+## 🧾 Example Output
+A list of product cards with images, titles, and prices dynamically generated from JSON.
+
+![Demo Screenshot](https://via.placeholder.com/600x300?text=Product+Showcase+Demo)
+
+---
+
+## 💡 Learning Highlights
+- Templating with **Handlebars.js**
+- Working with **JSON** to simulate API responses
+- Front-end structure using **HTML, CSS, and JavaScript**
+- Understanding how B2C e-commerce sites dynamically render data
+
+---
+
+## 👩‍💻 Author
+**Anusha Reddy Kunta**  
+📧 anu.kunta21@gmail.com  
+🔗 [LinkedIn](https://www.linkedin.com/in/anusha-reddy-kunta)
